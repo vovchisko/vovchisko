@@ -4,8 +4,8 @@ const finalhandler = require('finalhandler')
 const serveStatic = require('serve-static')
 
 const options = {
-  key: fs.readFileSync('key.pem'),
-  cert: fs.readFileSync('cert.pem')
+  key: fs.readFileSync('/etc/letsencrypt/live/vovchisko.dev/privkey.pem'),
+  cert: fs.readFileSync('/etc/letsencrypt/live/vovchisko.dev/cert.pem')
 }
 
 // Serve up public/ftp folder
