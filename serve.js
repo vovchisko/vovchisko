@@ -15,3 +15,4 @@ https.createServer(options, function (req, res) {
   serve(req, res, finalhandler(req, res))
 }).listen(4443);
 
+console.log('website is down!')
