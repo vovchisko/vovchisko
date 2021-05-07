@@ -31,6 +31,7 @@
       <li>Electron</li>
       <li>WebSocket</li>
       <li>UI/UX (HTML, CSS/SCSS, Animations)</li>
+      <li>Figma, Sketch, Photoshop</li>
     </ul>
 
     <h2>Backend Experience</h2>
