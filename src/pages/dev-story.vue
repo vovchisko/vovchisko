@@ -2,7 +2,7 @@
   <section class="story">
 
     <p class="story-main">
-      Overall experience: 10+ years. Recently focused on the Frontend, Vue nad JavaScript in general. Have experience with
+      Overall experience: 10+ years. Recently focused on the Frontend, Vue and JavaScript in general. Have experience with
       cross-country teams on different types of projects: Advertisement, E-Commerce, Automotive, B2B, SaaS, even Indie-Games.
     </p>
 
@@ -15,7 +15,7 @@
     <ul class="story-list">
       <li>Prototyping UI/UX for all-sized projects</li>
       <li>Design System and UI-kit development</li>
-      <li>Projects with multiple desgin</li>
+      <li>Projects with multiple designs</li>
       <li>Hi-performance Web interfaces on all kinds of projects</li>
       <li>Cross-platform Desktop applications</li>
       <li>Mobile-first & Mobile-friendly</li>
@@ -58,7 +58,7 @@
     <ul class="story-jobs">
       <li>
         <b>Sr. Frontend Developer, UI/UX</b>
-        at Cardeal.ge
+        at Cardeal.ge &nbsp;
         <small>Mar 2019 → Current</small>
         <p class="story-jobs-desc">
           The most beautiful website ever, large dashboard, whole bunch of microservices and complex business logic, UI-Kit
@@ -67,7 +67,7 @@
       </li>
       <li>
         <b>UI/UX, Front-end Developer</b>
-        at Exponential Interactive inc.
+        at Exponential Interactive inc. &nbsp;
         <small>Sep 2013 → Mar 2019</small>
         <p class="story-jobs-desc">
           Angular, Vue, JQuery, Design, all kinds of reverse-engineering, UX prototyping, several multimedia projects, animated
@@ -76,7 +76,7 @@
       </li>
       <li>
         <b>Freelance Time!</b>
-        at Home
+        at Home &nbsp;
         <small>May 2012 → Sep 2013</small>
         <p class="story-jobs-desc">
           Design, UX prototyping, Full-stack time, PHP/SMARTY/MYSQL, Linux, Mobile App Constructor, WebGL, ThreeJS.
@@ -84,12 +84,12 @@
       </li>
       <li>
         <b>UI/UX & PHP Developer</b>
-        at QArea
+        at QArea &nbsp;
         <small>Mar 2010 → May 2012</small>
       </li>
       <li>
         <b>PHP Developer</b>
-        at AlarSoft
+        at AlarSoft &nbsp;
         <small>Feb 2008 → Mar 2010</small>
       </li>
     </ul>
