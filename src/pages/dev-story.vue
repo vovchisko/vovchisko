@@ -102,7 +102,7 @@
       <li>Experience with ThreeJS <a href="http://master.oringo.com.ua/en/" target="_blank">a little</a></li>
       <li>HTML-based multiplayer <a href="https://www.youtube.com/watch?v=mLrntKVJyTk&" target="_blank">game prototype</a></li>
       <li>IE6-friendly web (yes, I'm old)</li>
-      <li>I can <a href="https://www.artstation.com/vovchisko" target="_blank">draw</a> when it's necessary.</li>
+      <li>I can <a href="https://www.artstation.com/vovchisko" target="_blank">draw</a> when it's necessary</li>
     </ul>
   </section>
 </template>
