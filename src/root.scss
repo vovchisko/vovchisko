@@ -1,0 +1,25 @@
+:root {
+  --logo-size: 48px;
+  --base-spacing: 14px;
+  --left-offset: calc(var(--base-spacing) + var(--logo-size));
+  --pal-green:#46862a;
+}
+
+body {
+  font-family: 'Noto Sans', Avenir, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  font-size: 14px;
+  color: #000;
+}
+
+section {
+  display: block;
+}
+
+nav, header, section, div, p, h1, h2, h3, h4, h5 {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
