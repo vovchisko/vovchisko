@@ -1,0 +1,37 @@
+
+// Hey Max! Hi Ihor! This is so nice to see you reading my code :3
+$ui-media-breakpoints: (
+    sm: 1200px,
+    md: 1440px,
+) !default;
+
+@mixin respond-below($breakpoint) {
+  $breakpoint-value: map-get($ui-media-breakpoints, $breakpoint);
+
+  @media (max-width: ($breakpoint-value)) {
+    @content;
+  }
+}
+
+@mixin respond-above($breakpoint) {
+  $breakpoint-value: map-get($ui-media-breakpoints, $breakpoint);
+
+  @media (min-width: ($breakpoint-value + 1)) {
+    @content;
+  }
+}
+@mixin scrollbar-awesome() {
+  &::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+
+  &::-webkit-scrollbar {
+    background-color: transparent;
+    width: 3px;
+    height: 3px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: var(--scroll-thumb-color, red);
+  }
+}

@@ -26,12 +26,12 @@
 
     <ul class="story-list">
       <li>JavaScript</li>
-      <li>VueJS, Vuex</li>
+      <li>VueJS, Vuex, Composition API</li>
       <li>Unit Testing</li>
-      <li>Electron</li>
-      <li>WebSocket</li>
+      <li>Electron Cross-platform Desktop Apps</li>
+      <li>WebSocket, RT-applications, WAMP, WS-RPC, Protocols</li>
       <li>UI/UX (HTML, CSS/SCSS, Animations)</li>
-      <li>Figma, Sketch, Photoshop</li>
+      <li>Figma, Sketch, Photoshop<span style="opacity: 0.1">, FontForge</span></li>
     </ul>
 
     <h2>Backend Experience</h2>
@@ -52,7 +52,6 @@
       <li>Mongoose</li>
       <li>WebSocket</li>
     </ul>
-
 
     <h2>Jobs</h2>
     <ul class="story-jobs">
@@ -98,11 +97,15 @@
     <ul class="story-list">
       <li>Multiplayer Games prototyping</li>
       <li><a href="https://www.youtube.com/watch?v=-xoxKqmILuI" target="_blank">Overlay app</a> for Elite Dangerous (twice)</li>
-      <li>Several <a href="https://github.com/vovchisko" target="_blank">open-source projects</a> & npm packages</li>
+      <li>Several <a href="https://github.com/vovchisko" target="_blank">open-source projects</a> &
+        <a href="https://www.npmjs.com/~vovchisko" target="_blank">npm packages</a></li>
       <li>Experience with ThreeJS <a href="http://master.oringo.com.ua/en/" target="_blank">a little</a></li>
-      <li>HTML-based multiplayer <a href="https://www.youtube.com/watch?v=mLrntKVJyTk&" target="_blank">game prototype</a></li>
+      <li>HTML-based multiplayer <a href="https://www.youtube.com/watch?v=mLrntKVJyTk&" target="_blank">game prototype</a>
+        (absolutely adorable)
+      </li>
+      <li>I can <a href="https://www.artstation.com/vovchisko" target="_blank">draw</a> when it's
+        <a href="https://dribbble.com/vovchisko" target="_blank">necessary</a></li>
       <li>IE6-friendly web (yes, I'm old)</li>
-      <li>I can <a href="https://www.artstation.com/vovchisko" target="_blank">draw</a> when it's necessary</li>
     </ul>
   </section>
 </template>
