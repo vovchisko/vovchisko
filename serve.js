@@ -1,18 +1,27 @@
-const https = require('https')
-const fs = require('fs')
-const finalhandler = require('finalhandler')
-const serveStatic = require('serve-static')
+const WEB_PORT = '4200'
+const WEB_ROOT = './dist'
 
-const options = {
-  key: fs.readFileSync('../cert/privkey.pem'),
-  cert: fs.readFileSync('../cert/cert.pem')
-}
+const path = require('path')
+const app = require('fastify')({ logger: false })
 
-// Serve up public/ftp folder
-const serve = serveStatic('./dist', {'index': ['index.html']})
+app.register(require('fastify-static'), { root: path.resolve(WEB_ROOT) })
 
-https.createServer(options, function (req, res) {
-  serve(req, res, finalhandler(req, res))
-}).listen(4443);
+app.setNotFoundHandler((req, res) => {
+  // API 404
+  if (req.raw.url && req.raw.url.startsWith('/api')) {
+    return res.status(404).send({
+      success: false,
+      error: {
+        kind: 'user_input',
+        message: 'Not Found',
+      },
+    })
+  }
 
-console.log('website is down!')
+  // Vue SPA
+  res.status(200).sendFile('index.html')
+})
+
+app.listen(WEB_PORT)
+
+console.log('served on', { WEB_ROOT, WEB_PORT })
