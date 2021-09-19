@@ -42,7 +42,7 @@ export default {
   }
 
   &-item {
-    margin: 0.1em -2px;
+    margin: 0.1em 0;
     text-decoration: none;
     color: #666;
     display: block;

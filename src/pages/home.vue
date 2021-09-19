@@ -11,7 +11,7 @@
     <p class="home-p">But if you here for a reason - you can check out more about my dev story:</p>
 
     <router-link class="home-dev-story-btn" active-class="active" to="/dev-story">
-      Course of life
+      Curriculum Vitae
     </router-link>
 
     <links />

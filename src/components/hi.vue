@@ -7,8 +7,6 @@
     </div>
     <div class="hi-head">
       <h1 class="hi-head-title">{{ meta_title }}</h1>
-      <nav class="hi-nav">
-      </nav>
     </div>
   </header>
 </template>
@@ -59,25 +57,6 @@ export default {
       line-height: var(--logo-size);
       margin: 0;
       padding: 0;
-    }
-  }
-
-  &-nav {
-    margin-left: auto;
-
-    &-item {
-      text-decoration: none;
-      color: #0085d5;
-      text-transform: uppercase;
-      background: #eee;
-      padding: 0.5em;
-      margin-left: 0.5em;
-      display: inline-flex;
-      align-items: center;
-
-      &.active {
-        display: none;
-      }
     }
   }
 }

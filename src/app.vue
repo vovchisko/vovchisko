@@ -2,23 +2,16 @@
   <div class="layout">
     <div class="layout_h">
       <hi class="layout_h-hi" />
-
-      <div class="layout_h-ref">
-        <a href="https://www.digitalocean.com/?refcode=72cfd6567301&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge">
-          <img
-              src="https://web-platforms.sfo2.digitaloceanspaces.com/WWW/Badge%202.svg"
-              alt="DigitalOcean Referral Badge"
-          />
-        </a>
-      </div>
     </div>
     <div class="layout-page">
       <router-view />
     </div>
 
-    <section class="layout-todo">
-      // todo: make this page looks pretty
-    </section>
+    <div class="layout_ref">
+      <a href="https://www.digitalocean.com/?refcode=72cfd6567301&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge"><img
+          src="https://web-platforms.sfo2.digitaloceanspaces.com/WWW/Badge%202.svg"
+          alt="DigitalOcean Referral Badge" /></a>
+    </div>
   </div>
 </template>
 
@@ -45,25 +38,23 @@ export default {
     &-hi {
       margin: auto 0;
     }
-    &-ref {
-      margin: auto 0;
-      @include respond-below(sm) {
-        & img {
-          max-width: 40vw;
-        }
-      }
-    }
+
   }
 
   &-page {
     padding-left: var(--left-offset);
   }
 
-  &-todo {
+  &_ref {
+    margin: 48px 0;
     padding-left: var(--left-offset);
-    font-family: "Lucida Console", Monaco, monospace;
-    margin-top: 5em;
-    color: #888888;
+
+    & img {
+      border-radius: 3px;
+      border: 1px solid #eee;
+      width: 150px;
+      height: 49px;
+    }
   }
 }
 </style>
