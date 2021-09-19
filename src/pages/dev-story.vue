@@ -2,7 +2,7 @@
   <section class="story">
 
     <p class="story-main">
-      Overall experience: 10+ years. Recently focused on the Frontend, Vue and JavaScript in general. Have experience with
+      Overall experience: 13+ years. Recently focused on the Frontend, Vue and JavaScript in general. Have experience with
       cross-country teams on different types of projects: Advertisement, E-Commerce, Automotive, B2B, SaaS, even Indie-Games.
     </p>
 

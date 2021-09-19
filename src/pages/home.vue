@@ -4,11 +4,6 @@
       Nice to see you here! My name is Volodymyr Ishchenko. I'm a front-end developer, UI/UX designer. Love
       JavaScript, NodeJs, and Vue. Programming for fun and living.
     </p>
-    <p class="home-p">
-      This page is just a placeholder.
-    </p>
-
-    <p class="home-p">But if you here for a reason - you can check out more about my dev story:</p>
 
     <router-link class="home-dev-story-btn" active-class="active" to="/dev-story">
       Curriculum Vitae
