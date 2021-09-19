@@ -9,7 +9,7 @@
 
     <div class="layout_ref">
       <a href="https://www.digitalocean.com/?refcode=72cfd6567301&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge"><img
-          src="https://web-platforms.sfo2.digitaloceanspaces.com/WWW/Badge%202.svg"
+          src="~@/assets/do-button.svg"
           alt="DigitalOcean Referral Badge" /></a>
     </div>
   </div>
