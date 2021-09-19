@@ -1,7 +1,16 @@
 <template>
   <div class="layout">
-    <div class="layout-hi">
-      <hi />
+    <div class="layout_h">
+      <hi class="layout_h-hi" />
+
+      <div class="layout_h-ref">
+        <a href="https://www.digitalocean.com/?refcode=72cfd6567301&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge">
+          <img
+              src="https://web-platforms.sfo2.digitaloceanspaces.com/WWW/Badge%202.svg"
+              alt="DigitalOcean Referral Badge"
+          />
+        </a>
+      </div>
     </div>
     <div class="layout-page">
       <router-view />
@@ -27,6 +36,24 @@ export default {
   width: 640px;
   max-width: calc(100vw - var(--base-spacing) * 3);
   margin: 64px auto;
+
+  &_h {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &-hi {
+      margin: auto 0;
+    }
+    &-ref {
+      margin: auto 0;
+      @include respond-below(sm) {
+        & img {
+          max-width: 40vw;
+        }
+      }
+    }
+  }
 
   &-page {
     padding-left: var(--left-offset);

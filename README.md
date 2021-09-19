@@ -2,15 +2,18 @@
 
 Nice to see you here!
 
-My name is Volodymyr Ishchenko. I'm a front-end developer, UI/UX designer (no joke). Love JavaScript, NodeJs, and Vue. Programming for fun and living.
+My name is Volodymyr Ishchenko. I'm a front-end developer, UI/UX designer. Love JavaScript, NodeJs, and Vue. Programming for fun
+and living.
 
-🔗[`HomePage`](https://vovchisko.dev) 
-[`GitHub`](https://github.com/vovchisko) 
-[`Stackoverflow`](https://stackoverflow.com/users/533976/vladimir-ishenko?tab=topactivity) 
-[`NPM`](https://www.npmjs.com/~vovchisko) 
-[`Twitter`](https://twitter.com/vovchisko) 
-[`Instagram`](https://www.instagram.com/vovchisko.dev/) 
+🔗[`Home`](https://vovchisko.dev)
+[`GitHub`](https://github.com/vovchisko)
+[`Stackoverflow`](https://stackoverflow.com/users/533976/vladimir-ishenko?tab=topactivity)
+[`NPM`](https://www.npmjs.com/~vovchisko)
+[`Twitter`](https://twitter.com/vovchisko)
+[`Instagram`](https://www.instagram.com/vovchisko.dev/)
 [`ArtStation`](https://www.artstation.com/vovchisko)
 [`Dribble`](https://dribbble.com/vovchisko)
 [`LinkedIn`](https://www.linkedin.com/in/vovchisko/)
-[`FB (deprecated)`](https://www.facebook.com/vovchisko.dev)
+
+---
+[🌊 DigitalOcean Referral](https://m.do.co/c/72cfd6567301)

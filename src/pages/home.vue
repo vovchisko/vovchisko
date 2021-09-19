@@ -1,7 +1,7 @@
 <template>
   <section class="home">
     <p class="home-p">
-      Nice to see you here! My name is Volodymyr Ishchenko. I'm a front-end developer, UI/UX designer (no joke). Love
+      Nice to see you here! My name is Volodymyr Ishchenko. I'm a front-end developer, UI/UX designer. Love
       JavaScript, NodeJs, and Vue. Programming for fun and living.
     </p>
     <p class="home-p">

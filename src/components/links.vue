@@ -19,18 +19,13 @@ export default {
     links () {
       return [
         { res: 'GitHub', link: 'https://github.com/vovchisko', tip: '🔬 Obviously' },
-        {
-          res: 'Stackoverflow',
-          link: 'https://stackoverflow.com/users/533976/vladimir-ishenko',
-          tip: `🥃 We've all been there.`,
-        },
-        { res: 'NPM', link: 'https://www.npmjs.com/~vovchisko', tip: `📦 Maintain all the packages!` },
-        { res: 'Twitter', link: 'https://twitter.com/vovchisko', tip: `💩 Social time!` },
+        { res: 'Stackoverflow', link: 'https://stackoverflow.com/users/533976', tip: `🥃 We've all been there` },
+        { res: 'NPM', link: 'https://www.npmjs.com/~vovchisko', tip: `📦 Maintain all the packages` },
+        { res: 'Twitter', link: 'https://twitter.com/vovchisko', tip: `💩 Social time` },
         { res: 'Instagram', link: 'https://www.instagram.com/vovchisko.dev/', tip: '📷 #sky #outdoor' },
-        { res: 'Dribbble', link: 'https://dribbble.com/vovchisko', tip: `✨ It's not a mistake` },
-        { res: 'ArtStation', link: 'https://www.artstation.com/vovchisko', tip: `🎨 It's happy little accident` },
-        { res: 'LinkedIn', link: 'https://www.linkedin.com/in/vovchisko/', tip: `🎯 Hunt time!` },
-        { res: 'FB (deprecated)', link: 'https://www.facebook.com/vovchisko.dev', tip: `👁️ Achtung!` },
+        { res: 'Dribbble', link: 'https://dribbble.com/vovchisko', tip: `✨ For real` },
+        { res: 'ArtStation', link: 'https://www.artstation.com/vovchisko', tip: `🎨 Happy little accident` },
+        { res: 'LinkedIn', link: 'https://www.linkedin.com/in/vovchisko/', tip: `🎯 Hunt time` },
       ]
     },
   },
