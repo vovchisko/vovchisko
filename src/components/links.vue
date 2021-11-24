@@ -19,6 +19,7 @@ export default {
     links () {
       return [
         { res: 'GitHub', link: 'https://github.com/vovchisko', tip: '🔬 Obviously' },
+        { res: 'Discord', link: 'https://discord.gg/cYuWt5eDrF', tip: '🍕 Basically my kitchen' },
         { res: 'Stackoverflow', link: 'https://stackoverflow.com/users/533976', tip: `🥃 We've all been there` },
         { res: 'NPM', link: 'https://www.npmjs.com/~vovchisko', tip: `📦 Maintain all the packages` },
         { res: 'Twitter', link: 'https://twitter.com/vovchisko', tip: `💩 Social time` },
