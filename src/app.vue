@@ -1,5 +1,8 @@
 <template>
   <div class="layout">
+    <div class="layout_h" style="margin-bottom: 8em; background-color: black; color: white; padding: 4em">
+      <h1 style="line-height: 2em !important;">"Russian Warship - <br/>Go Fuck yourself."<br/>🇺🇦</h1>
+    </div>
     <div class="layout_h">
       <hi class="layout_h-hi" />
     </div>
