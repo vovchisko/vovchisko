@@ -9,6 +9,9 @@
     <p class="story-main">
       Friendly, honest, love my job, care about my project and users no matter what.❤️
     </p>
+    <p class="story-main">
+      Stress-resistance: Ukrainian.
+    </p>
 
     <h2>Frontend Experience</h2>
 
@@ -31,7 +34,7 @@
       <li>Electron Cross-platform Desktop Apps</li>
       <li>WebSocket, RT-applications, WAMP, WS-RPC, Protocols</li>
       <li>UI/UX (HTML, CSS/SCSS, Animations)</li>
-      <li>Figma, Sketch, Photoshop<span style="opacity: 0.1">, FontForge</span></li>
+      <li>Figma, Sketch, Photoshop, FontForge</li>
     </ul>
 
     <h2>Backend Experience</h2>
