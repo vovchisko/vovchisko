@@ -19,5 +19,10 @@ and living.
 [`Dribble`](https://dribbble.com/vovchisko)
 [`LinkedIn`](https://www.linkedin.com/in/vovchisko/)
 
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=vovchisko&theme=dracula&no-frame=true&column=8)](https://github.com/ryo-ma/github-profile-trophy)
+
+
 ---
+
 [🌊 DigitalOcean Referral](https://m.do.co/c/72cfd6567301)
