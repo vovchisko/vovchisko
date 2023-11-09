@@ -34,3 +34,20 @@ nav, header, section, div, p, h1, h2, h3, h4, h5 {
   }
 }
 
+@media print {
+  .print {
+    &_break {
+      page-break-before: always;
+    }
+
+    &_hide {
+      display: none !important;
+    }
+  }
+
+  body {
+    font-size: 80%;
+    margin: 0; // Remove default margins
+    padding: 1cm; // Add padding to the printed page
+  }
+}

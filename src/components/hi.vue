@@ -2,7 +2,7 @@
   <header class="hi">
     <div>
       <router-link class="hi-logo" to="/">
-        <img alt="vovchisko's bunny" src="../assets/bunny.gif" />
+        <img alt="vovchisko's bunny" src="../assets/bunny.gif" class="print_hide" />
       </router-link>
     </div>
     <div class="hi-head">

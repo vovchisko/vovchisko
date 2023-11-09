@@ -12,8 +12,8 @@ const routes = [
   },
   {
     path: '/dev-story',
-    name: 'Dev Story',
-    meta: { title: 'Dev Story' },
+    name: 'Volodymyr Ishchenko',
+    meta: { title: 'Volodymyr Ishchenko' },
     component: DevStory,
   },
 ]

@@ -2,25 +2,25 @@
   <section class="story">
 
     <p class="story-main">
-      Overall experience: 15+ years. Recently focused on JavaScript and Frontend. Primarily Vue, and NodeJS. Have experience with
+      Overall experience: 15+ years. Recently focused on JavaScript and Frontend. Primarily Vue, and NodeJS. Have experience
+      with
       cross-country teams on different types of projects: IoT, Automation, Visual Programming, E-Commerce, Automotive, B2B,
       Advertisement, SaaS, and even Indie-Game dev.
     </p>
 
     <p class="story-main">
-      I am friendly and honest, love my work, and care about my project and users no matter what. ❤️
+      I am friendly and honest, love my work, and care about my project and users. ❤️
     </p>
 
-    <p class="story-main">
+    <p class="story-main print_hide">
       Stress-resistance: <span class="spoiler">Ukrainian</span>.
     </p>
 
     <h2>Frontend Experience</h2>
 
     <ul class="story-list">
-      <li>60 FPS Hi-performance Web UI on all data-intense real-time architecture</li>
+      <li>60 FPS Web UI with large data-sets</li>
       <li>Design System and UI-kit development</li>
-      <li>Prototyping UI/UX for all-sized projects</li>
       <li>Cross-platform Desktop applications</li>
       <li>Mobile-first & Mobile-friendly</li>
       <li>Mentoring, Code-review, and all the good development processes</li>
@@ -29,22 +29,20 @@
     <h3>Recent Stack</h3>
 
     <ul class="story-list">
-      <li>JavaScript</li>
-      <li>VueJS, Vuex, Composition API</li>
-      <li>Unit Testing</li>
-      <li>Electron Cross-platform Desktop Apps</li>
-      <li>WebSocket, RT-applications, WAMP, WS-RPC, Protocols</li>
+      <li>JavaScript, VueJS, Composition API</li>
+      <li>WebSocket, RT-applications, WAMP, WS-RPC</li>
       <li>UI/UX (HTML, CSS/SCSS, Animations)</li>
+      <li>Electron Cross-platform Desktop Apps</li>
       <li>Figma, Sketch, Photoshop, FontForge</li>
     </ul>
 
     <h2>Backend Experience</h2>
 
     <ul class="story-list">
-      <li>IoT and Automation and Video Surveillance</li>
-      <li>Scalable Run-time applications</li>
+      <li>IoT Automation system</li>
       <li>Web Applications for RT social interactions</li>
       <li>In-House E-Commerce Applications</li>
+      <li>Simple multiplayer games</li>
     </ul>
 
     <h3>Recent Stack</h3>
@@ -52,11 +50,11 @@
     <ul class="story-list">
       <li>NodeJS</li>
       <li>MongoDB</li>
-      <li>Fastify</li>
-      <li>Express</li>
-      <li>WebSocket</li>
-      <li>WAMP</li>
+      <li>Fastify, Express</li>
+      <li>WebSocket, WAMP</li>
     </ul>
+
+    <div class="print_break" />
 
     <h2>Jobs</h2>
     <ul class="story-jobs">
@@ -119,7 +117,8 @@
       <li>Experience with ThreeJS <a href="http://master.oringo.com.ua/en/" target="_blank">a little</a></li>
       <li>HTML-based multiplayer
         <a href="https://www.youtube.com/watch?v=mLrntKVJyTk&" target="_blank">game prototype</a>
-        (absolutely adorable)</li>
+        (absolutely adorable)
+      </li>
       <li>I can <a href="https://www.artstation.com/vovchisko" target="_blank">draw</a> when it's
         <a href="https://dribbble.com/vovchisko" target="_blank">necessary</a></li>
       <li>IE6-friendly web (yes, I'm old)</li>
