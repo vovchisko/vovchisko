@@ -20,8 +20,7 @@
       <li>60 FPS Web UI with large data-sets</li>
       <li>Cloud/Edge/Offline Web Applications</li>
       <li>Design System and UI-kit development</li>
-      <li>Cross-platform Desktop applications</li>
-      <li>Mobile-first & Mobile-friendly</li>
+      <li>Cross-platform Desktop, Mobile-first, and Mobile-friendly apps</li>
       <li>Mentoring, Code-review, and all the good development processes</li>
     </ul>
 
@@ -62,8 +61,8 @@
         at Simple Things
         <small>Jul 2021 → Current</small>
         <p class="story-jobs-desc">
-          IoT and Automation, Visual Programming, 60 FPS UI, UI-Kit and Design system integration, Video Surveillance, and many
-          more super cool features.
+          IoT and Automation, Visual Programming, 60 FPS UI, UI-Kit and Design system integration, Video Surveillance Client,
+          and many more super cool features.
         </p>
       </li>
       <li>
@@ -134,6 +133,10 @@ export default {
 <style lang="scss" scoped>
 .story {
   margin: 2em 0;
+
+  @media print {
+    margin: 0;
+  }
 
   &-main {
     font-size: 18px;

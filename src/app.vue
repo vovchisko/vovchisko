@@ -40,6 +40,10 @@ export default {
   max-width: calc(100vw - var(--base-spacing) * 3);
   margin: 32px auto;
 
+  @media print {
+    margin: 0 auto;
+  }
+
   &_h {
     display: flex;
     align-items: center;

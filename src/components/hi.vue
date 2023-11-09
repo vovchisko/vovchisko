@@ -7,7 +7,9 @@
     </div>
     <div class="hi_head">
       <h1 class="hi_head-title">{{ meta_title }}</h1>
-      <a href="https://vovchisko.dev" class="hi_link">https://vovchisko.dev</a>
+
+      <p class="hi_link _print">Home: <a href="https://vovchisko.dev">https://vovchisko.dev</a></p>
+      <p class="hi_link">Email: <a href="mailto:vovchisko@gmail.com">vovchisko@gmail.com</a></p>
     </div>
   </header>
 </template>
@@ -29,12 +31,19 @@ export default {
   align-items: flex-start;
 
   &_link {
-    display: none;
-    color: #0085d5 !important;
+    &._print {
+      display: none;
 
-    @media print {
-      display: block;
+      @media print {
+        display: block;
+      }
     }
+
+    & a {
+      color: #0085d5 !important;
+    }
+
+
   }
 
   &_logo {
