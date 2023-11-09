@@ -2,17 +2,17 @@
   <section class="story">
 
     <p class="story-main">
-      Overall experience: 15+ years. Recently focused on JavaScript and Frontend. Primarly Vue, and NodeJS. Have experience with
+      Overall experience: 15+ years. Recently focused on JavaScript and Frontend. Primarily Vue, and NodeJS. Have experience with
       cross-country teams on different types of projects: IoT, Automation, Visual Programming, E-Commerce, Automotive, B2B,
       Advertisement, SaaS, and even Indie-Game dev.
     </p>
 
     <p class="story-main">
-      I am friendly and honest, love my job, and care about my project and users no matter what. ❤️
+      I am friendly and honest, love my work, and care about my project and users no matter what. ❤️
     </p>
 
     <p class="story-main">
-      Stress-resistance: Ukrainian.
+      Stress-resistance: <span class="spoiler">Ukrainian</span>.
     </p>
 
     <h2>Frontend Experience</h2>
@@ -109,14 +109,17 @@
 
     <h2>Accidental Experience</h2>
     <ul class="story-list">
+      <li>It turns out there are still places where you actually need to invent something</li>
+      <li>Turns out the concept "don not re-invent cubicle" could be misleading</li>
+      <li>It turns out the "best practices" are not necessary "the best"</li>
       <li>Multiplayer Games prototyping</li>
       <li><a href="https://www.youtube.com/watch?v=-xoxKqmILuI" target="_blank">Overlay app</a> for Elite Dangerous (twice)</li>
       <li>Several <a href="https://github.com/vovchisko" target="_blank">open-source projects</a> &
         <a href="https://www.npmjs.com/~vovchisko" target="_blank">npm packages</a></li>
       <li>Experience with ThreeJS <a href="http://master.oringo.com.ua/en/" target="_blank">a little</a></li>
-      <li>HTML-based multiplayer <a href="https://www.youtube.com/watch?v=mLrntKVJyTk&" target="_blank">game prototype</a>
-        (absolutely adorable)
-      </li>
+      <li>HTML-based multiplayer
+        <a href="https://www.youtube.com/watch?v=mLrntKVJyTk&" target="_blank">game prototype</a>
+        (absolutely adorable)</li>
       <li>I can <a href="https://www.artstation.com/vovchisko" target="_blank">draw</a> when it's
         <a href="https://dribbble.com/vovchisko" target="_blank">necessary</a></li>
       <li>IE6-friendly web (yes, I'm old)</li>

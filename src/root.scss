@@ -25,3 +25,12 @@ nav, header, section, div, p, h1, h2, h3, h4, h5 {
   box-sizing: border-box;
 }
 
+.spoiler {
+  background-color: black;
+  color: black;
+
+  &:hover {
+    background-color: #eee;
+  }
+}
+
