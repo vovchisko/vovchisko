@@ -9,7 +9,7 @@
       <h1 class="hi_head-title">{{ meta_title }}</h1>
 
       <p class="hi_link _print">Home: <a href="https://vovchisko.dev">https://vovchisko.dev</a></p>
-      <p class="hi_link">Email: <a href="mailto:vovchisko@gmail.com">vovchisko@gmail.com</a></p>
+      <p class="hi_link">Email: <a href="mailto:hi@vovchisko.dev">hi@vovchisko.dev</a></p>
     </div>
   </header>
 </template>
