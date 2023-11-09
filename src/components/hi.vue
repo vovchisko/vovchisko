@@ -1,12 +1,13 @@
 <template>
   <header class="hi">
     <div>
-      <router-link class="hi-logo" to="/">
+      <router-link class="hi_logo" to="/">
         <img alt="vovchisko's bunny" src="../assets/bunny.gif" class="print_hide" />
       </router-link>
     </div>
-    <div class="hi-head">
-      <h1 class="hi-head-title">{{ meta_title }}</h1>
+    <div class="hi_head">
+      <h1 class="hi_head-title">{{ meta_title }}</h1>
+      <a href="https://vovchisko.dev" class="hi_link">https://vovchisko.dev</a>
     </div>
   </header>
 </template>
@@ -27,7 +28,16 @@ export default {
   display: flex;
   align-items: flex-start;
 
-  &-logo {
+  &_link {
+    display: none;
+    color: #0085d5 !important;
+
+    @media print {
+      display: block;
+    }
+  }
+
+  &_logo {
     background-color: var(--pal-green);
     display: flex;
     align-items: center;
@@ -44,9 +54,8 @@ export default {
     }
   }
 
-  &-head {
+  &_head {
     margin: 0 0 0 var(--base-spacing);
-    display: flex;
     flex: 1;
     align-items: center;
 

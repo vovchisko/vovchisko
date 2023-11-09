@@ -1,10 +1,8 @@
 <template>
   <section class="story">
-
     <p class="story-main">
-      Overall experience: 15+ years. Recently focused on JavaScript and Frontend. Primarily Vue, and NodeJS. Have experience
-      with
-      cross-country teams on different types of projects: IoT, Automation, Visual Programming, E-Commerce, Automotive, B2B,
+      15+ years of experience. Recently focused on JavaScript and Frontend. Primarily Vue, and NodeJS. Have experience
+      with cross-country teams on different types of projects: IoT, Automation, Visual Programming, E-Commerce, Automotive, B2B,
       Advertisement, SaaS, and even Indie-Game dev.
     </p>
 
