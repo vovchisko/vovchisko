@@ -18,6 +18,7 @@
 
     <ul class="story-list">
       <li>60 FPS Web UI with large data-sets</li>
+      <li>Cloud/Edge/Offline Web Applications</li>
       <li>Design System and UI-kit development</li>
       <li>Cross-platform Desktop applications</li>
       <li>Mobile-first & Mobile-friendly</li>
