@@ -5,7 +5,7 @@
       JavaScript, NodeJs, and Vue. Programming for fun and living.
     </p>
 
-    <router-link class="home-dev-story-btn" active-class="active" to="/dev-story">
+    <router-link active-class="active" class="home-dev-story-btn" to="/dev-story">
       Curriculum Vitae
     </router-link>
 
@@ -14,7 +14,7 @@
 </template>
 
 <script>
-import Links from '@/components/links'
+import Links from '@/components/links.vue'
 
 export default {
   name: 'home',

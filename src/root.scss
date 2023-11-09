@@ -2,7 +2,7 @@
   --logo-size: 48px;
   --base-spacing: 14px;
   --left-offset: calc(var(--base-spacing) + var(--logo-size));
-  --pal-green:#46862a;
+  --pal-green: #46862a;
 }
 
 body {
@@ -10,7 +10,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #fff;
-  font-size: 14px;
+  // font-size: 14px;
   line-height: 1.7em;
   color: #000;
 }

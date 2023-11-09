@@ -2,13 +2,15 @@
   <section class="story">
 
     <p class="story-main">
-      Overall experience: 13+ years. Recently focused on the Frontend, Vue and JavaScript in general. Have experience with
-      cross-country teams on different types of projects: Advertisement, E-Commerce, Automotive, B2B, SaaS, even Indie-Games.
+      Overall experience: 15+ years. Recently focused on JavaScript and Frontend. Primarly Vue, and NodeJS. Have experience with
+      cross-country teams on different types of projects: IoT, Automation, Visual Programming, E-Commerce, Automotive, B2B,
+      Advertisement, SaaS, and even Indie-Game dev.
     </p>
 
     <p class="story-main">
-      Friendly, honest, love my job, care about my project and users no matter what.❤️
+      I am friendly and honest, love my job, and care about my project and users no matter what. ❤️
     </p>
+
     <p class="story-main">
       Stress-resistance: Ukrainian.
     </p>
@@ -16,10 +18,9 @@
     <h2>Frontend Experience</h2>
 
     <ul class="story-list">
-      <li>Prototyping UI/UX for all-sized projects</li>
+      <li>60 FPS Hi-performance Web UI on all data-intense real-time architecture</li>
       <li>Design System and UI-kit development</li>
-      <li>Projects with multiple designs</li>
-      <li>Hi-performance Web interfaces on all kinds of projects</li>
+      <li>Prototyping UI/UX for all-sized projects</li>
       <li>Cross-platform Desktop applications</li>
       <li>Mobile-first & Mobile-friendly</li>
       <li>Mentoring, Code-review, and all the good development processes</li>
@@ -40,6 +41,7 @@
     <h2>Backend Experience</h2>
 
     <ul class="story-list">
+      <li>IoT and Automation and Video Surveillance</li>
       <li>Scalable Run-time applications</li>
       <li>Web Applications for RT social interactions</li>
       <li>In-House E-Commerce Applications</li>
@@ -52,16 +54,25 @@
       <li>MongoDB</li>
       <li>Fastify</li>
       <li>Express</li>
-      <li>Mongoose</li>
       <li>WebSocket</li>
+      <li>WAMP</li>
     </ul>
 
     <h2>Jobs</h2>
     <ul class="story-jobs">
       <li>
+        <b>Full-Stack Developer, UI/UX, IoT Automation</b>
+        at Simple Things
+        <small>Jul 2021 → Current</small>
+        <p class="story-jobs-desc">
+          IoT and Automation, Visual Programming, 60 FPS UI, UI-Kit and Design system integration, Video Surveillance, and many
+          more super cool features.
+        </p>
+      </li>
+      <li>
         <b>Sr. Frontend Developer, UI/UX</b>
         at Cardeal.ge &nbsp;
-        <small>Mar 2019 → Current</small>
+        <small>Mar 2019 → Jul 2021</small>
         <p class="story-jobs-desc">
           The most beautiful website ever, large dashboard, whole bunch of microservices and complex business logic, UI-Kit
           development, Design system integration, VueJS 2 and 3, Unit Testing and many more.
@@ -141,6 +152,7 @@ export default {
   ul {
     margin: 1em 0;
     padding: 0;
+
     li {
       margin-left: 1em;
       margin-bottom: 0.15em;
@@ -152,6 +164,7 @@ export default {
       &::after {
         content: ";"
       }
+
       &:last-child::after {
         content: "."
       }

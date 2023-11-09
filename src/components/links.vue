@@ -4,8 +4,8 @@
     <a
         v-for="l in links"
         :key="l.resource"
-        :href="l.link" target="_blank"
-        class="links-item"
+        :href="l.link" class="links-item"
+        target="_blank"
     >
       <span>{{ l.res }}</span> <b>{{ l.tip }}</b>
     </a>
@@ -33,7 +33,7 @@ export default {
 }
 </script>
 
-<style scoped lang="scss">
+<style lang="scss" scoped>
 .links {
   &-title {
     text-transform: uppercase;

@@ -1,8 +1,7 @@
-
 // Hey Max! Hi Ihor! This is so nice to see you reading my code :3
 $ui-media-breakpoints: (
-    sm: 1200px,
-    md: 1440px,
+        sm: 1200px,
+        md: 1440px,
 ) !default;
 
 @mixin respond-below($breakpoint) {
@@ -20,6 +19,7 @@ $ui-media-breakpoints: (
     @content;
   }
 }
+
 @mixin scrollbar-awesome() {
   &::-webkit-scrollbar-track {
     background-color: transparent;

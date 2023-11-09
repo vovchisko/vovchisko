@@ -1,30 +1,36 @@
 <template>
   <div class="layout">
-    <div class="layout_h" style="margin-bottom: 8em; background-color: black; color: white; padding: 4em">
-      <h1 style="line-height: 2em !important;">"Russian Warship - <br/>Go Fuck yourself."<br/>🇺🇦</h1>
+    <div class="layout_h" style="margin-bottom: 6em; background-color: black; color: white; padding: 3em 4em">
+      <h1 style="font-size: 24px;">Russian warship, go fuck yourself! 🇺🇦</h1>
     </div>
     <div class="layout_h">
       <hi class="layout_h-hi" />
     </div>
-    <div class="layout-page">
+    <div class="layout_page">
       <router-view />
     </div>
 
     <div class="layout_ref">
-      <a href="https://www.digitalocean.com/?refcode=72cfd6567301&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge"><img
-          src="~@/assets/do-button.svg"
-          alt="DigitalOcean Referral Badge" />
+      <a href="https://www.digitalocean.com/?refcode=72cfd6567301&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge">
+        <img alt="DigitalOcean Referral Badge" src="~@/assets/do-button.svg" />
       </a>
     </div>
+
+    <small class="layout_ver">v{{ config.PACKAGE_VERSION }}</small>
   </div>
 </template>
 
 <script>
-import Hi    from '@/components/hi'
-import Links from '@/components/links'
+import Hi         from '@/components/hi.vue'
+import Links      from '@/components/links.vue'
+import { config } from './config.js'
 
 export default {
   components: { Hi, Links },
+  setup () {
+
+    return { config }
+  },
 }
 </script>
 
@@ -45,7 +51,7 @@ export default {
 
   }
 
-  &-page {
+  &_page {
     padding-left: var(--left-offset);
   }
 
@@ -59,6 +65,10 @@ export default {
       width: 150px;
       height: 49px;
     }
+  }
+
+  &_ver {
+    color: #c7c7c7;
   }
 }
 </style>
