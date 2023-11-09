@@ -4,8 +4,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite --mode dev",
-    "dev:host": "vite --mode dev --host"
+    "dev": "vite",
+    "dev:host": "vite --host",
+    "build": "vite build"
   },
   "dependencies": {
     "vue": "^3.3.8",
