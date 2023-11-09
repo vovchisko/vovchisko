@@ -5,7 +5,7 @@
       JavaScript, NodeJs, and Vue. Programming for fun and living.
     </p>
 
-    <router-link active-class="active" class="home-dev-story-btn" to="/dev-story">
+    <router-link active-class="active" class="home-cv-btn" to="/cv">
       Curriculum Vitae
     </router-link>
 
@@ -30,7 +30,7 @@ export default {
     margin-bottom: 1rem;
   }
 
-  &-dev-story-btn {
+  &-cv-btn {
     display: block;
     background: #333;
     color: #eee;

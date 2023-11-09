@@ -1,8 +1,11 @@
 <template>
   <header class="hi">
     <div>
-      <router-link class="hi_logo" to="/">
-        <img alt="vovchisko's bunny" src="../assets/bunny.gif" class="print_hide" />
+      <router-link to="/" class="hi_logo">
+        <div class="hi_logo-circle">
+          <img alt="vovchisko's bunny" src="../assets/bunny.gif" class="hi_logo-img print_hide" />
+        </div>
+        <p v-if="route.name !== 'home'" class="print_hide hi_logo-arrow">←</p>
       </router-link>
     </div>
     <div class="hi_head">
@@ -11,17 +14,23 @@
       <p class="hi_link _print">Home: <a href="https://vovchisko.dev">https://vovchisko.dev</a></p>
       <p class="hi_link">Email: <a href="mailto:hi@vovchisko.dev">hi@vovchisko.dev</a></p>
     </div>
+
   </header>
 </template>
 
 <script>
+import { computed } from 'vue'
+import { useRoute } from 'vue-router'
+
 export default {
   name: 'hi',
-  computed: {
-    meta_title () {
-      return this.$route.meta.title || 'Oh, hi!'
-    },
+  setup () {
+    const route = useRoute()
+    const meta_title = computed(() => route.meta.title || 'Oh, hi!')
+
+    return { meta_title, route }
   },
+
 }
 </script>
 
@@ -42,24 +51,38 @@ export default {
     & a {
       color: #0085d5 !important;
     }
-
-
   }
 
   &_logo {
-    background-color: var(--pal-green);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: var(--logo-size);
-    height: var(--logo-size);
-    width: var(--logo-size);
-    min-height: var(--logo-size);
-    min-width: var(--logo-size);
+    text-decoration: none;
 
-    & img {
+    &-circle {
+      background-color: var(--pal-green);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: var(--logo-size);
+      height: var(--logo-size);
+      width: var(--logo-size);
+      min-height: var(--logo-size);
+      min-width: var(--logo-size);
+    }
+
+    &-img {
       image-rendering: pixelated;
       height: 50%;
+    }
+
+    &-arrow {
+      transition: all linear 200ms;
+      font-size: 24px;
+      text-align: center;
+      color: #c7c7c7;
+    }
+
+    &:hover &-arrow {
+      transform: translateX(-5px);
+      color: black;
     }
   }
 

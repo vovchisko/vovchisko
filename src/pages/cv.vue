@@ -1,22 +1,22 @@
 <template>
-  <section class="story">
-    <p class="story-main">
+  <section class="cv">
+    <p class="cv-main">
       15+ years of experience. Recently focused on JavaScript and Frontend. Primarily Vue, and NodeJS. Have experience
       with cross-country teams on different types of projects: IoT, Automation, Visual Programming, E-Commerce, Automotive, B2B,
       Advertisement, SaaS, and even Indie-Game dev.
     </p>
 
-    <p class="story-main">
+    <p class="cv-main">
       I am friendly and honest, love my work, and care about my project and users. ❤️
     </p>
 
-    <p class="story-main print_hide">
+    <p class="cv-main print_hide">
       Stress-resistance: <span class="spoiler">Ukrainian</span>.
     </p>
 
     <h2>Frontend Experience</h2>
 
-    <ul class="story-list">
+    <ul class="cv-list">
       <li>60 FPS Web UI with large data-sets</li>
       <li>Cloud/Edge/Offline Web Applications</li>
       <li>Design System and UI-kit development</li>
@@ -26,7 +26,7 @@
 
     <h3>Recent Stack</h3>
 
-    <ul class="story-list">
+    <ul class="cv-list">
       <li>JavaScript, VueJS, Composition API</li>
       <li>WebSocket, RT-applications, WAMP, WS-RPC</li>
       <li>UI/UX (HTML, CSS/SCSS, Animations)</li>
@@ -36,7 +36,7 @@
 
     <h2>Backend Experience</h2>
 
-    <ul class="story-list">
+    <ul class="cv-list">
       <li>IoT Automation system</li>
       <li>Web Applications for RT social interactions</li>
       <li>In-House E-Commerce Applications</li>
@@ -45,7 +45,7 @@
 
     <h3>Recent Stack</h3>
 
-    <ul class="story-list">
+    <ul class="cv-list">
       <li>NodeJS</li>
       <li>MongoDB</li>
       <li>Fastify, Express</li>
@@ -55,12 +55,12 @@
     <div class="print_break" />
 
     <h2>Jobs</h2>
-    <ul class="story-jobs">
+    <ul class="cv-jobs">
       <li>
         <b>Full-Stack Developer, UI/UX, IoT Automation</b>
         at Simple Things
         <small>Jul 2021 → Current</small>
-        <p class="story-jobs-desc">
+        <p class="cv-jobs-desc">
           IoT and Automation, Visual Programming, 60 FPS UI, UI-Kit and Design system integration, Video Surveillance Client,
           and many more super cool features.
         </p>
@@ -69,7 +69,7 @@
         <b>Sr. Frontend Developer, UI/UX</b>
         at Cardeal.ge &nbsp;
         <small>Mar 2019 → Jul 2021</small>
-        <p class="story-jobs-desc">
+        <p class="cv-jobs-desc">
           The most beautiful website ever, large dashboard, whole bunch of microservices and complex business logic, UI-Kit
           development, Design system integration, VueJS 2 and 3, Unit Testing and many more.
         </p>
@@ -78,7 +78,7 @@
         <b>UI/UX, Front-end Developer</b>
         at Exponential Interactive inc. &nbsp;
         <small>Sep 2013 → Mar 2019</small>
-        <p class="story-jobs-desc">
+        <p class="cv-jobs-desc">
           Angular, Vue, JQuery, Design, all kinds of reverse-engineering, UX prototyping, several multimedia projects, animated
           interactive Ad.
         </p>
@@ -87,7 +87,7 @@
         <b>Freelance Time!</b>
         at Home &nbsp;
         <small>May 2012 → Sep 2013</small>
-        <p class="story-jobs-desc">
+        <p class="cv-jobs-desc">
           Design, UX prototyping, Full-stack time, PHP/SMARTY/MYSQL, Linux, Mobile App Constructor, WebGL, ThreeJS.
         </p>
       </li>
@@ -104,7 +104,7 @@
     </ul>
 
     <h2>Accidental Experience</h2>
-    <ul class="story-list">
+    <ul class="cv-list">
       <li>It turns out there are still places where you actually need to invent something</li>
       <li>Turns out the concept "don not re-invent cubicle" could be misleading</li>
       <li>It turns out the "best practices" are not necessary "the best"</li>
@@ -126,12 +126,12 @@
 
 <script>
 export default {
-  name: 'dev-story',
+  name: 'cv',
 }
 </script>
 
 <style lang="scss" scoped>
-.story {
+.cv {
   margin: 2em 0;
 
   @media print {
