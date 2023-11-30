@@ -105,9 +105,6 @@
 
     <h2>Accidental Experience</h2>
     <ul class="cv-list">
-      <li>It turns out there are still places where you actually need to invent something</li>
-      <li>Turns out the concept "don not re-invent cubicle" could be misleading</li>
-      <li>It turns out the "best practices" are not necessary "the best"</li>
       <li>Multiplayer Games prototyping</li>
       <li><a href="https://www.youtube.com/watch?v=-xoxKqmILuI" target="_blank">Overlay app</a> for Elite Dangerous (twice)</li>
       <li>Several <a href="https://github.com/vovchisko" target="_blank">open-source projects</a> &
@@ -120,6 +117,13 @@
       <li>I can <a href="https://www.artstation.com/vovchisko" target="_blank">draw</a> when it's
         <a href="https://dribbble.com/vovchisko" target="_blank">necessary</a></li>
       <li>IE6-friendly web (yes, I'm old)</li>
+    </ul>
+
+    <h2>Important conclusions</h2>
+    <ul class="cv-list">
+      <li>Turns out the slogan "do not re-invent bicycle" could be misleading</li>
+      <li>Turns out the "best practices" are not necessary "the best"</li>
+      <li>Turns out there are still places where you actually have to invent something</li>
     </ul>
   </section>
 </template>
