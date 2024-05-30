@@ -1,20 +1,20 @@
 <template>
   <section class="cv">
     <p class="cv-main">
-      15+ years of experience. Recently focused on JavaScript and Frontend. Primarily Vue, and NodeJS. Have experience
-      with cross-country teams on different types of projects: IoT, Automation, Visual Programming, E-Commerce, Automotive, B2B,
+      15+ years of experience. Recently focused on JavaScript and Frontend. Primarily Vue and NodeJS. Have experience with
+      cross-country teams on different types of projects: IoT, Automation, Visual Programming, E-Commerce, Automotive, B2B,
       Advertisement, SaaS, and even Indie-Game dev.
     </p>
 
     <p class="cv-main">
-      I am friendly and honest, love my work, and care about my project and users. ❤️
+      I am friendly and honest, love my work, and care about my projects and users. ❤️
     </p>
 
     <p class="cv-main print_hide">
       Stress-resistance: <span class="spoiler">Ukrainian</span>.
     </p>
 
-    <h2>Frontend Experience</h2>
+    <h2>Experience / Frontend</h2>
 
     <ul class="cv-list">
       <li>60 FPS Web UI with large data-sets</li>
@@ -22,28 +22,29 @@
       <li>Design System and UI-kit development</li>
       <li>Cross-platform Desktop, Mobile-first, and Mobile-friendly apps</li>
       <li>Mentoring, Code-review, and all the good development processes</li>
+      <li>UX & Design, Figma, Sketch, Photoshop, FontForge</li>
     </ul>
 
-    <h3>Recent Stack</h3>
+    <h3>Stack</h3>
 
     <ul class="cv-list">
       <li>JavaScript, VueJS, Composition API</li>
       <li>WebSocket, RT-applications, WAMP, WS-RPC</li>
       <li>UI/UX (HTML, CSS/SCSS, Animations)</li>
       <li>Electron Cross-platform Desktop Apps</li>
-      <li>Figma, Sketch, Photoshop, FontForge</li>
     </ul>
 
-    <h2>Backend Experience</h2>
+    <h2>Experience / Backend</h2>
 
     <ul class="cv-list">
       <li>IoT Automation system</li>
       <li>Web Applications for RT social interactions</li>
       <li>In-House E-Commerce Applications</li>
       <li>Simple multiplayer games</li>
+      <li>OpenAI-powered services</li>
     </ul>
 
-    <h3>Recent Stack</h3>
+    <h3>Stack</h3>
 
     <ul class="cv-list">
       <li>NodeJS</li>
@@ -52,31 +53,28 @@
       <li>WebSocket, WAMP</li>
     </ul>
 
-    <div class="print_break" />
+    <div class="print_break"></div>
 
     <h2>Jobs</h2>
     <ul class="cv-jobs">
       <li>
-        <b>Full-Stack Developer, UI/UX, IoT Automation</b>
-        at Simple Things
-        <small>Jul 2021 → Current</small>
+        <b>Full-Stack Developer, UI/UX, IoT Automation</b> at Simple Things
+        <small>Jul 2021 → Jan 2024</small>
         <p class="cv-jobs-desc">
           IoT and Automation, Visual Programming, 60 FPS UI, UI-Kit and Design system integration, Video Surveillance Client,
           and many more super cool features.
         </p>
       </li>
       <li>
-        <b>Sr. Frontend Developer, UI/UX</b>
-        at Cardeal.ge &nbsp;
+        <b>Sr. Frontend Developer, UI/UX</b> at Cardeal.ge
         <small>Mar 2019 → Jul 2021</small>
         <p class="cv-jobs-desc">
-          The most beautiful website ever, large dashboard, whole bunch of microservices and complex business logic, UI-Kit
-          development, Design system integration, VueJS 2 and 3, Unit Testing and many more.
+          The most beautiful website ever, large dashboard, a whole bunch of microservices and complex business logic, UI-Kit
+          development, Design system integration, VueJS 2 and 3, Unit Testing, and many more.
         </p>
       </li>
       <li>
-        <b>UI/UX, Front-end Developer</b>
-        at Exponential Interactive inc. &nbsp;
+        <b>UI/UX, Front-end Developer</b> at Exponential Interactive Inc.
         <small>Sep 2013 → Mar 2019</small>
         <p class="cv-jobs-desc">
           Angular, Vue, JQuery, Design, all kinds of reverse-engineering, UX prototyping, several multimedia projects, animated
@@ -84,21 +82,18 @@
         </p>
       </li>
       <li>
-        <b>Freelance Time!</b>
-        at Home &nbsp;
+        <b>Freelance Time!</b> at Home
         <small>May 2012 → Sep 2013</small>
         <p class="cv-jobs-desc">
-          Design, UX prototyping, Full-stack time, PHP/SMARTY/MYSQL, Linux, Mobile App Constructor, WebGL, ThreeJS.
+          Design, UX prototyping, Full-stack development, PHP/SMARTY/MYSQL, Linux, Mobile App Constructor, WebGL, ThreeJS.
         </p>
       </li>
       <li>
-        <b>UI/UX & PHP Developer</b>
-        at QArea &nbsp;
+        <b>UI/UX & PHP Developer</b> at QArea
         <small>Mar 2010 → May 2012</small>
       </li>
       <li>
-        <b>PHP Developer</b>
-        at AlarSoft &nbsp;
+        <b>PHP Developer</b> at AlarSoft
         <small>Feb 2008 → Mar 2010</small>
       </li>
     </ul>
@@ -111,21 +106,22 @@
         <a href="https://www.npmjs.com/~vovchisko" target="_blank">npm packages</a></li>
       <li>Experience with ThreeJS <a href="http://master.oringo.com.ua/en/" target="_blank">a little</a></li>
       <li>HTML-based multiplayer
-        <a href="https://www.youtube.com/watch?v=mLrntKVJyTk&" target="_blank">game prototype</a>
-        (absolutely adorable)
+        <a href="https://www.youtube.com/watch?v=mLrntKVJyTk" target="_blank">game prototype</a>
+        (technical implementation is fun)
       </li>
       <li>I can <a href="https://www.artstation.com/vovchisko" target="_blank">draw</a> when it's
         <a href="https://dribbble.com/vovchisko" target="_blank">necessary</a></li>
       <li>IE6-friendly web (yes, I'm old)</li>
     </ul>
 
-    <h2>Important conclusions</h2>
+    <h2>Important Conclusions</h2>
     <ul class="cv-list">
-      <li>Turns out the slogan "do not re-invent bicycle" could be misleading</li>
-      <li>Turns out the "best practices" are not necessary "the best"</li>
+      <li>Turns out the slogan "do not re-invent the bicycle" could be misleading</li>
+      <li>Turns out "best practices" are not necessarily "the best"</li>
       <li>Turns out there are still places where you actually have to invent something</li>
     </ul>
   </section>
+
 </template>
 
 <script>
