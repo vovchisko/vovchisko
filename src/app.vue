@@ -1,14 +1,16 @@
 <template>
   <div class="layout">
-    <div class="layout_h print_hide" style="margin-bottom: 6em; background-color: black; color: white; padding: 3em 4em">
+    <router-link
+        :to="{ name: ROUTE_NAMES.DONATE }"
+        class="layout_hero print_hide" style=""
+    >
       <h1 style="font-size: 24px;">Russian warship, go fuck yourself!
-
         <svg class="layout_h-flag" width="30" height="20" viewBox="0 0 30 20" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M30 0H0V20H30V0Z" fill="#0057B7" />
           <path d="M30 10H0V20H30V10Z" fill="#FFD700" />
         </svg>
       </h1>
-    </div>
+    </router-link>
     <div class="layout_h">
       <hi class="layout_h-hi" />
     </div>
@@ -27,15 +29,16 @@
 </template>
 
 <script>
-import Hi         from '@/components/hi.vue'
-import Links      from '@/components/links.vue'
-import { config } from './config.js'
+import Hi              from '@/components/hi.vue'
+import Links           from '@/components/links.vue'
+import { config }      from './config.js'
+import { ROUTE_NAMES } from '@/route-names.js'
 
 export default {
   components: { Hi, Links },
   setup () {
 
-    return { config }
+    return { config, ROUTE_NAMES }
   },
 }
 </script>
@@ -50,6 +53,31 @@ export default {
     margin: 0 auto;
   }
 
+  &_hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    margin-bottom: 6em;
+    background-color: black;
+    color: white;
+    padding: 3em 4em;
+
+    &:hover {
+      text-decoration: underline;
+      background: #130101;
+      box-shadow: 0 18px 13px -5px rgba(0, 0, 0, .3);
+    }
+
+    &-hi {
+      margin: auto 0;
+    }
+
+    &-flag {
+      border-radius: 3px;
+    }
+  }
+
   &_h {
     display: flex;
     align-items: center;
@@ -59,9 +87,6 @@ export default {
       margin: auto 0;
     }
 
-    &-flag {
-      border-radius: 3px;
-    }
   }
 
   &_page {
@@ -92,6 +117,8 @@ export default {
   --base-spacing: 14px;
   --left-offset: calc(var(--base-spacing) + var(--logo-size));
   --pal-green: #46862a;
+  --pal-link: #0072e4;
+  --pal-link-hover: #0072e4;
 }
 
 body {
@@ -99,9 +126,10 @@ body {
   margin: 0;
   padding: 0;
   background-color: #fff;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.7em;
   color: #000;
+  overflow-y: scroll;
 }
 
 section {
@@ -122,6 +150,42 @@ nav, header, section, div, p, h1, h2, h3, h4, h5 {
     background-color: #eee;
   }
 }
+
+
+a {
+  color: var(--pal-link);
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  &:focus, &:active {
+    color: var(--pal-link-active);
+    text-decoration: underline;
+  }
+}
+
+
+a {
+  color: var(--pal-link);
+
+  &:active {
+    color: var(--pal-link-active);
+  }
+
+  &:focus, &:hover {
+    color: var(--pal-link-hover);
+    text-decoration: underline;
+  }
+}
+
+hr {
+  border-width: 1px 0 0 0;
+  border-style: solid;
+  border-color: #eee;
+}
+
 
 @media print {
   .print {

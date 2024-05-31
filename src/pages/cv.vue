@@ -1,5 +1,6 @@
 <template>
   <section class="cv">
+
     <p class="cv-main">
       15+ years of experience. Recently focused on JavaScript and Frontend. Primarily Vue and NodeJS. Have experience with
       cross-country teams on different types of projects: IoT, Automation, Visual Programming, E-Commerce, Automotive, B2B,
@@ -13,6 +14,12 @@
     <p class="cv-main print_hide">
       Stress-resistance: <span class="spoiler">Ukrainian</span>.
     </p>
+
+    <div>
+      <p class="cv_link _print">Home: <a href="https://vovchisko.dev">https://vovchisko.dev</a></p>
+      <p class="cv_link">Email: <a href="mailto:hi@vovchisko.dev">hi@vovchisko.dev</a></p>
+    </div>
+
 
     <h2>Experience / Frontend</h2>
 
@@ -104,7 +111,7 @@
       <li><a href="https://www.youtube.com/watch?v=-xoxKqmILuI" target="_blank">Overlay app</a> for Elite Dangerous (twice)</li>
       <li>Several <a href="https://github.com/vovchisko" target="_blank">open-source projects</a> &
         <a href="https://www.npmjs.com/~vovchisko" target="_blank">npm packages</a></li>
-      <li>Experience with ThreeJS <a href="http://master.oringo.com.ua/en/" target="_blank">a little</a></li>
+      <li>Experience with ThreeJS a little</li>
       <li>HTML-based multiplayer
         <a href="https://www.youtube.com/watch?v=mLrntKVJyTk" target="_blank">game prototype</a>
         (technical implementation is fun)
@@ -136,6 +143,16 @@ export default {
 
   @media print {
     margin: 0;
+  }
+
+  &_link {
+    &._print {
+      display: none;
+
+      @media print {
+        display: block;
+      }
+    }
   }
 
   &-main {
@@ -200,10 +217,6 @@ export default {
 
     color: grey;
     display: block;
-  }
-
-  a {
-    color: #0085d5;
   }
 }
 </style>

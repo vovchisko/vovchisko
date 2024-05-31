@@ -1,11 +1,12 @@
 <template>
   <section class="home">
     <p class="home-p">
-      Nice to see you here! My name is Volodymyr Ishchenko. I'm a Full-stack developer developer, UI/UX designer from Ukraine. Love
+      Nice to see you here! My name is Volodymyr Ishchenko. I'm a Full-stack developer developer, UI/UX designer from Ukraine.
+      Love
       JavaScript, NodeJs, and Vue. Programming for fun and living.
     </p>
 
-    <router-link active-class="active" class="home-cv-btn" to="/cv">
+    <router-link active-class="active" class="home-cv-btn" :to="{ name: ROUTE_NAMES.CV }">
       Curriculum Vitae
     </router-link>
 
@@ -14,11 +15,15 @@
 </template>
 
 <script>
-import Links from '@/components/links.vue'
+import Links           from '@/components/links.vue'
+import { ROUTE_NAMES } from '@/route-names.js'
 
 export default {
   name: 'home',
   components: { Links },
+  setup () {
+    return { ROUTE_NAMES }
+  },
 }
 </script>
 
@@ -28,6 +33,7 @@ export default {
 
   &-p {
     margin-bottom: 1rem;
+    font-size: 18px;
   }
 
   &-cv-btn {
