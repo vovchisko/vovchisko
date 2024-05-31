@@ -5,7 +5,7 @@
       need to be programmed and debugged. They need to be built and upgraded.
     </p>
 
-    <img src="/drone-nest.jpg" alt="" width="640" height="287" />
+    <img class="donate_img" src="/drone-nest.jpg" alt="" width="640" height="287" />
 
     <p>
       I'm helping to organize a Drone Workshop in Ukraine.
@@ -63,6 +63,10 @@ export default {
 <style lang="scss" scoped>
 .donate {
   margin: 2em 0;
+
+  &_img {
+    margin-left: calc(var(--left-offset) * -1);
+  }
 
   & p {
     margin: 1em 0;
