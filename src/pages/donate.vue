@@ -65,6 +65,7 @@ export default {
   margin: 2em 0;
 
   &_img {
+    margin-left: calc(var(--left-offset) * -1);
     max-width: calc(100vw - var(--left-offset) + 32px);
     object-fit: cover;
   }
