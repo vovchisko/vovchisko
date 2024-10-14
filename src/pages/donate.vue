@@ -33,8 +33,8 @@
     </p>
 
     <p>
-      <b>Privat Bank</b><br />
-      🍯 <a href="https://privat24.ua/send/1zyy7" target="_blank">https://privat24.ua/send/1zyy7</a><br />
+      <b>PrivatBank</b><br />
+      🍯 <a href="https://www.privat24.ua/send/dpw6m" target="_blank">https://www.privat24.ua/send/dpw6m</a><br />
       💳 <code>5168752103382928</code>
     </p>
 
@@ -42,7 +42,7 @@
 
     <p>
       If you have any questions, or want to see how your money is spent, feel free to contact me or catch me
-      on <a href="https://x.com/vovchisko" target="_blank">Twitter for updates</a>. 🐦
+      on <a href="https://x.com/vovchisko/highlights" target="_blank">Twitter for updates</a>. 🐦
     </p>
 
     Glory to Ukraine! ❤️🔥🇺🇦
