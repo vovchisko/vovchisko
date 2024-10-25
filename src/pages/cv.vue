@@ -48,7 +48,7 @@
       <li>Web Applications for RT social interactions</li>
       <li>In-House E-Commerce Applications</li>
       <li>Simple multiplayer games</li>
-      <li>OpenAI-powered services</li>
+      <li>Data-driven prompt engineering + OpenAI Vision</li>
     </ul>
 
     <h3>Stack</h3>
@@ -107,6 +107,7 @@
 
     <h2>Accidental Experience</h2>
     <ul class="cv-list">
+      <li class="spoiler">I guess I'm prompt engineer now. Or even Prompt Chef Architect</li>
       <li>Multiplayer Games prototyping</li>
       <li><a href="https://www.youtube.com/watch?v=-xoxKqmILuI" target="_blank">Overlay app</a> for Elite Dangerous (twice)</li>
       <li>Several <a href="https://github.com/vovchisko" target="_blank">open-source projects</a> &
@@ -123,6 +124,8 @@
 
     <h2>Important Conclusions</h2>
     <ul class="cv-list">
+      <li>AI will never take my job</li>
+      <li>All front-end frameworks are the same. The best one are delivers less breaking changes, doing the same job</li>
       <li>Turns out the slogan "do not re-invent the bicycle" could be misleading</li>
       <li>Turns out "best practices" are not necessarily "the best"</li>
       <li>Turns out there are still places where you actually have to invent something</li>
