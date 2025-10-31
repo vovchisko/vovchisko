@@ -1,51 +1,48 @@
 <template>
   <div class="donate">
     <p>
-      Drones need care and feeding. They need to be charged, maintained, and repaired. They need to be flown and tested. They
-      need to be programmed and debugged. They need to be built and upgraded.
+      Thank you for supporting my country's fight for freedom and democracy.
+      Your help made a real difference when it was needed most.
     </p>
 
     <img class="donate_img" src="/drone-nest.jpg" alt="" width="640" height="287" />
 
     <p>
-      I'm helping to organize a Drone Workshop in Ukraine.
-      We are building, programming, and repairing all kinds of drones for the Armed Forces of Ukraine.
-      Usually, I finance everything on my own, but expenses are hard to predict and don't always fit my budget.
-      So I run small fundraisers from time to time.
-    </p>
-    <p>
-      By contributing to our Drone Workshop, you directly support the brave men and women of the Armed Forces of Ukraine.
-      This is the quickest way to directly contribute to the guidance of Russian warships.
-    </p>
-
-    <hr />
-
-    <p><b>PayPal</b> <br />
-      ✉️ <code><a href="mailto:hi@vovchisko.dev">hi@vovchisko.dev</a></code><br />
-      <small>Please, <b>do not</b> mention purposes in the payment description that might violate PP ToS.<br />
-        Be neutral and informative.😉</small>
-    </p>
-
-    <p>
-      <b>Monobank</b><br />
-      🍯 <a href="https://send.monobank.ua/jar/3dJpjWgxea" target="_blank">https://send.monobank.ua/jar/3dJpjWgxea</a> <br />
-      💳 <code>5375411209797328</code> <br />
-    </p>
-
-    <p>
-      <b>PrivatBank</b><br />
-      🍯 <a href="https://www.privat24.ua/send/dpw6m" target="_blank">https://www.privat24.ua/send/dpw6m</a><br />
-      💳 <code>5168752103382928</code>
+      Things get slightly better - I no longer need to publicly fundraise, which is good.
+      However, the war won't end tomorrow, and support is still critical.
+      If you want to help, I recommend these organizations:
     </p>
 
     <hr />
 
     <p>
-      If you have any questions, or want to see how your money is spent, feel free to contact me or catch me
-      on <a href="https://x.com/vovchisko/highlights" target="_blank">Twitter for updates</a>. 🐦
+      <b>Come Back Alive</b><br />
+      <a href="https://savelife.in.ua/" target="_blank">https://savelife.in.ua/</a><br />
+      <small>Non-profit organization providing almost anything and everything to Ukrainian military - from socks to heavy artillery.</small>
     </p>
 
-    Glory to Ukraine! ❤️🔥🇺🇦
+    <p>
+      <b>Sternenko Fund</b><br />
+      <a href="https://www.sternenkofund.org/" target="_blank">https://www.sternenkofund.org/</a><br />
+      <small>The fastest way to convert your help into kinetic energy. Sternenko Fund delivers strike and airdefense drones to the armed forces.</small>
+    </p>
+
+    <p>
+      <b>Brave1</b><br />
+      <a href="https://brave1.gov.ua/" target="_blank">https://brave1.gov.ua/</a><br />
+      <small>For investors. Ukrainian defense tech cluster supporting innovation in military technology. it is basically a silicon valley of the military drone technoilogies.</small>
+    </p>
+
+    <hr />
+
+    <p style="display: inline-flex; align-items: center; gap: 2px">
+      Glory to Ukraine! ❤️🔥
+      <svg class="layout_h-flag" width="24" height="16" viewBox="0 0 30 20" xmlns="http://www.w3.org/2000/svg">
+        <path d="M30 0H0V20H30V0Z" fill="#0057B7" />
+        <path d="M30 10H0V20H30V10Z" fill="#FFD700" />
+      </svg>
+    </p>
+
 
   </div>
 </template>

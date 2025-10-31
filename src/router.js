@@ -64,7 +64,7 @@ const routes = [
     path: '/donate',
     name: ROUTE_NAMES.DONATE,
     meta: {
-      title: 'Support Drone Workshop',
+      title: 'I\'m from Ukraine',
       metaTags: [
         { property: 'og:title', content: 'Ukrainian Drone Workshop 🇺🇦' },
         { property: 'og:description', content: 'Russian warship, go fuck yourself!' },
