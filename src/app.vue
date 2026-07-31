@@ -18,12 +18,6 @@
       <router-view />
     </div>
 
-    <div class="layout_ref print_hide">
-      <a href="https://www.digitalocean.com/?refcode=72cfd6567301&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge">
-        <img alt="DigitalOcean Referral Badge" src="~@/assets/do-button.svg" />
-      </a>
-    </div>
-
     <small class="layout_ver print_hide">v{{ config.PACKAGE_VERSION }}</small>
   </div>
 </template>
@@ -91,18 +85,6 @@ export default {
 
   &_page {
     padding-left: var(--left-offset);
-  }
-
-  &_ref {
-    margin: 48px 0;
-    padding-left: var(--left-offset);
-
-    & img {
-      border-radius: 3px;
-      border: 1px solid #eee;
-      width: 150px;
-      height: 49px;
-    }
   }
 
   &_ver {
@@ -189,10 +171,6 @@ hr {
 
 @media print {
   .print {
-    &_break {
-      page-break-before: always;
-    }
-
     &_hide {
       display: none !important;
     }

@@ -2,9 +2,14 @@
   <section class="cv">
 
     <p class="cv-main">
-      15+ years of experience. Recently focused on JavaScript and Frontend. Primarily Vue and NodeJS. Have experience with
-      cross-country teams on different types of projects: IoT, Automation, Visual Programming, E-Commerce, Automotive, B2B,
-      Advertisement, SaaS, and even Indie-Game dev.
+      18+ years of experience. Focused on JavaScript across the whole stack — primarily Vue and NodeJS, lately with a solid
+      dose of AI/MCP tooling. Have experience with cross-country teams on different types of projects: IoT, Automation,
+      Visual Programming, E-Commerce, Automotive, B2B, Advertisement, Analytics, Logistics, SaaS, and even Indie-Game dev.
+    </p>
+
+    <p class="cv-main">
+      JavaScript is the language I think in. Python or Rust are not a problem — with today's AI-assisted workflow,
+      syntax is the cheap part. Architecture, data flow, and the final review are the parts I actually own.
     </p>
 
     <p class="cv-main">
@@ -44,26 +49,61 @@
     <h2>Experience / Backend</h2>
 
     <ul class="cv-list">
+      <li>API design and architecture — REST and realtime, versioning, backward compatibility</li>
       <li>IoT Automation system</li>
       <li>Web Applications for RT social interactions</li>
       <li>In-House E-Commerce Applications</li>
       <li>Simple multiplayer games</li>
-      <li>Data-driven prompt engineering + OpenAI Vision</li>
+      <li>Cost-effective infrastructure on hand-managed VPSes</li>
+      <li>Custom in-memory databases when the task is weird enough</li>
     </ul>
 
     <h3>Stack</h3>
 
     <ul class="cv-list">
       <li>NodeJS</li>
-      <li>MongoDB</li>
+      <li>MongoDB, SQL databases</li>
       <li>Fastify, Express</li>
       <li>WebSocket, WAMP</li>
+      <li>Docker, self-hosted deployments</li>
+      <li>Rust — native NodeJS addons (napi-rs)</li>
     </ul>
 
-    <div class="print_break"></div>
+    <h2>Experience / AI</h2>
+
+    <ul class="cv-list">
+      <li>MCP servers — desktop and self-hosted: knowledge base, semantic search, runtime debug tooling</li>
+      <li>AI chat apps on local models (llama.cpp, Ollama, LM Studio) with agent loops and tool use</li>
+      <li>Semantic search — local embeddings, vector DBs (Qdrant), RAG experiments</li>
+      <li>Self-hosted TTS/transcription service — Python, FastAPI, Torch</li>
+      <li>Data-driven prompt engineering, LLM APIs (Anthropic, OpenAI, Vision)</li>
+      <li>AI-assisted development as a daily workflow — architecture and final review stay on me</li>
+    </ul>
+
+    <h3>Stack</h3>
+
+    <ul class="cv-list">
+      <li>MCP SDK, transformers.js, llama.cpp</li>
+      <li>Anthropic & OpenAI APIs, Claude Code</li>
+      <li>Python, FastAPI</li>
+    </ul>
 
     <h2>Jobs</h2>
     <ul class="cv-jobs">
+      <li>
+        <b>Full-Stack Developer, UI/UX, AI Tooling</b> at <span class="spoiler">&nbsp;REDACTED&nbsp;</span>
+        <small>Jan 2024 → Present <i class="spoiler">(Wartime contracts — company names withheld)</i></small>
+        <ul class="cv-list cv-jobs-desc">
+          <li>Design and development of UI for analytics tools (retail/marketing)</li>
+          <li>Interfaces for planning systems (construction/mining)</li>
+          <li>Data-heavy UI — large tables, timelines, dashboards</li>
+          <li>MCP (AI) tools for runtime debugging, backend and frontend</li>
+          <li>Audio/image recognition services for data collection</li>
+          <li>Full-stack logistics apps — "mini-SAP" for volunteers</li>
+          <li>Local user-side MCP tools: knowledge base, TTS, semantic search (desktop/self-hosted)</li>
+          <li>API & CMS for content-generation (LLM) apps</li>
+        </ul>
+      </li>
       <li>
         <b>Full-Stack Developer, UI/UX, IoT Automation</b> at Simple Things
         <small>Jul 2021 → Jan 2024</small>
@@ -107,8 +147,14 @@
 
     <h2>Accidental Experience</h2>
     <ul class="cv-list">
-      <li class="spoiler">I guess I'm prompt engineer now. Or even Prompt Chef Architect</li>
+      <li><span class="spoiler">Wartime OSINT since 2022 — narrative analysis, automation, open-source investigations</span>
+      </li>
+      <li><span class="spoiler">OPSEC — reviews and consultations for volunteers and communities</span></li>
+      <li><span class="spoiler">I guess I'm prompt engineer now. Or even Prompt Chef Architect</span></li>
       <li>Multiplayer Games prototyping</li>
+      <li>Learning Rust for fun — parallel world generator for a multiplayer game, shipped as a native NodeJS addon
+        (napi-rs + rayon)
+      </li>
       <li><a href="https://www.youtube.com/watch?v=-xoxKqmILuI" target="_blank">Overlay app</a> for Elite Dangerous (twice)</li>
       <li>Several <a href="https://github.com/vovchisko" target="_blank">open-source projects</a> &
         <a href="https://www.npmjs.com/~vovchisko" target="_blank">npm packages</a></li>
@@ -125,7 +171,8 @@
     <h2>Important Conclusions</h2>
     <ul class="cv-list">
       <li>AI will never take my job</li>
-      <li>All front-end frameworks are the same. The best one are delivers less breaking changes, doing the same job</li>
+      <li>All front-end frameworks are the same. The best one simply delivers fewer breaking changes while doing the same job
+      </li>
       <li>Turns out the slogan "do not re-invent the bicycle" could be misleading</li>
       <li>Turns out "best practices" are not necessarily "the best"</li>
       <li>Turns out there are still places where you actually have to invent something</li>
@@ -160,6 +207,7 @@ export default {
 
   &-main {
     font-size: 18px;
+    line-height: 1.3em;
     margin: 1em 0;
   }
 
@@ -179,12 +227,14 @@ export default {
 
     li {
       margin-left: 1em;
-      margin-bottom: 0.15em;
+      margin-bottom: 0.25em;
     }
   }
 
   &-list {
     & li {
+      line-height: 1.2em;
+
       &::after {
         content: ";"
       }
@@ -197,7 +247,7 @@ export default {
 
   &-jobs {
     &-desc {
-      margin: 0.75em 0 1em 0;
+      margin: 0.25em 0 1em 0;
       color: #555;
     }
 

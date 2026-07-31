@@ -24,13 +24,13 @@
     <p>
       <b>Sternenko Fund</b><br />
       <a href="https://www.sternenkofund.org/" target="_blank">https://www.sternenkofund.org/</a><br />
-      <small>The fastest way to convert your help into kinetic energy. Sternenko Fund delivers strike and airdefense drones to the armed forces.</small>
+      <small>The fastest way to convert your help into kinetic energy. Sternenko Fund delivers strike and air-defense drones to the armed forces.</small>
     </p>
 
     <p>
       <b>Brave1</b><br />
       <a href="https://brave1.gov.ua/" target="_blank">https://brave1.gov.ua/</a><br />
-      <small>For investors. Ukrainian defense tech cluster supporting innovation in military technology. it is basically a silicon valley of the military drone technoilogies.</small>
+      <small>For investors. Ukrainian defense tech cluster supporting innovation in military technology. It is basically a Silicon Valley of military drone technologies.</small>
     </p>
 
     <hr />

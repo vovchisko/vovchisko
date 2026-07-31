@@ -1,7 +1,7 @@
 <template>
   <section class="home">
     <p class="home-p">
-      Nice to see you here! My name is Volodymyr Ishchenko. I'm a Full-stack developer developer, UI/UX designer from Ukraine.
+      Nice to see you here! My name is Volodymyr Ishchenko. I'm a Full-stack developer, UI/UX designer from Ukraine.
       Love
       JavaScript, NodeJs, and Vue. Programming for fun and living.
     </p>
@@ -11,6 +11,12 @@
     </router-link>
 
     <links />
+
+    <div class="home-ref">
+      <a href="https://www.digitalocean.com/?refcode=72cfd6567301&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge">
+        <img alt="DigitalOcean Referral Badge" src="~@/assets/do-button.svg" />
+      </a>
+    </div>
   </section>
 </template>
 
@@ -34,6 +40,17 @@ export default {
   &-p {
     margin-bottom: 1rem;
     font-size: 18px;
+  }
+
+  &-ref {
+    margin: 48px 0;
+
+    & img {
+      border-radius: 3px;
+      border: 1px solid #eee;
+      width: 150px;
+      height: 49px;
+    }
   }
 
   &-cv-btn {
