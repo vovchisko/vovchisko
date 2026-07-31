@@ -8,11 +8,6 @@
     </p>
 
     <p class="cv-main">
-      JavaScript is the language I think in. Python or Rust are not a problem — with today's AI-assisted workflow,
-      syntax is the cheap part. Architecture, data flow, and the final review are the parts I actually own.
-    </p>
-
-    <p class="cv-main">
       I am friendly and honest, love my work, and care about my projects and users. ❤️
     </p>
 
